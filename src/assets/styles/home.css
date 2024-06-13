@@ -1,0 +1,21 @@
+.fondo{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fondoHome h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.img-fluid{
+    margin-top: 50px;
+    width: 400px;
+    filter: drop-shadow(8px 8px 5px gray);
+    border-radius: 5px;
+}
