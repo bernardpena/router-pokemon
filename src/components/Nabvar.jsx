@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -23,7 +23,8 @@ function Nabvar() {
                     />{' '}Pokémon's</Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
                     <Nav className="mt-2 d-inline-block barraSeparacion">
-                        <Link to="/"> Home </Link><Link to="/Busqueda"> Búsqueda </Link>
+                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to={"/"}> Home </NavLink >
+                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to={"/Busqueda"}> Búsqueda </NavLink >
                     </Nav>
                 </Navbar.Collapse>
             </Container>

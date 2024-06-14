@@ -1,4 +1,13 @@
+.active {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
 a {
+    padding: 10px;
     gap: 50px;
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
+
