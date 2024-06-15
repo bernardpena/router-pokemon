@@ -4,8 +4,12 @@
     margin-top: 100px;
 }
 
-select {
+.form-select {
     display: flex;
     justify-items: center;
     width: 250px;
+}
+
+button .buttonLink {
+    color: antiquewhite;
 }

@@ -24,7 +24,7 @@ function Nabvar() {
                 <Navbar.Collapse className="justify-content-end">
                     <Nav className="mt-2 d-inline-block barraSeparacion">
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to={"/"}> Home </NavLink >
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to={"/Busqueda"}> Búsqueda </NavLink >
+                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to={"/Busqueda"}> Busqueda </NavLink >
                     </Nav>
                 </Navbar.Collapse>
             </Container>
