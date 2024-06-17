@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-import "../assets/styles/busqueda.css"
+import "../assets/styles/css/busqueda.css"
 
 const URL_Base = "https://pokeapi.co/api/v2/pokemon"
 
@@ -22,8 +22,7 @@ function Busqueda() {
             setDataPokemon(results)
 
             //!otra forma de traer los datos
-            // const data = await response.json()
-            // setDataPokemon(data.results)
+
         } catch (error) {
             console.log(error);
         }

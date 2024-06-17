@@ -5,8 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import logo from "../assets/img/Pokeball_icon-icons.com_67533.png"
-import "../assets/styles/navbar.css"
+import logo from "../assets/styles/img/Pokeball_icon-icons.com_67533.png"
+import "../assets/styles/css/navbar.css"
 
 function Nabvar() {
     return (

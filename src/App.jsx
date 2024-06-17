@@ -7,7 +7,6 @@ import Busqueda from './views/Busqueda';
 import Pokemon from './views/Pokemon'
 import NotPage from './views/NotPage';
 
-import './App.css';
 
 
 function App() {

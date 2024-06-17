@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image';
 
-import imagenFondo from "../assets/img/imagen1.jpg"
-import "../assets/styles/home.css"
+import imagenFondo from "../assets/styles/img/imagen1.jpg"
+import "../assets/styles/css/home.css"
 
 function Home() {
     return (
